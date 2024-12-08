@@ -1,0 +1,27 @@
+import java.util.*;
+public class Solution3_8 {
+public static void main(String[] args) {
+Scanner input = new Scanner (System.in);
+int a,b,c;
+double delta,x,x1;
+System.out.print("Zarayaeb Moadele ax2+bx+c=0 Vared konid (a,b,c) : ");
+a = input.nextInt();
+b = input.nextInt();
+c = input.nextInt();
+delta = (b*b)- (4*a*c);
+if (delta <0){
+System.out.println("Moadele Rishe Haghighi nadarad");
+}
+else if (delta==0){
+x = (-1*b)/(2*a);
+System.out.printf("X barabar Ast Ba = %.3f",x);
+}
+else {
+x = ((-1*b) + Math.sqrt(delta))/(2*a);
+x1 = ((-1*b) - Math.sqrt(delta))/(2*a);
+System.out.printf("Rishe Aval X barabar Ast Ba = %.3f \n",x);
+System.out.printf("Rishe Dovom X barabar Ast Ba = %.3f \n",x1);
+}
+}
+
+} 
