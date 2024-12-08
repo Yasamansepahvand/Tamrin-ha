@@ -1,0 +1,17 @@
+ import java.util.*;
+public class Solution2_5 {
+ public static void main(String[] args) {
+ Scanner input = new Scanner (System.in);
+ double darage , back ;
+ System.out.print("Lotfan Darage Ra vared konid : ");
+ darage = input.nextDouble();
+ back = fahrenheit(darage);
+ System.out.printf("Fafahrenheit = %.3f \n", back);
+ } 
+ public static double fahrenheit (double c){
+ double f ; 
+ f = (c*1.8)+32;
+ return f ;
+ }
+}
+ 
