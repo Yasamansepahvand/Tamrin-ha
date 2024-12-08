@@ -1,0 +1,20 @@
+ import java.util.*;
+public class Solution2_6 {
+ public static void main(String[] args) {
+ Scanner input = new Scanner (System.in);
+ double a,b,c,d,e,res;
+ System.out.print("Adad 1th = ");
+ a = input.nextDouble();
+ System.out.print("Adad 2th = ");
+ b = input.nextDouble();
+ System.out.print("Adad 3th = ");
+ c = input.nextDouble();
+ System.out.print("Adad 4th = ");
+ d = input.nextDouble();
+ System.out.print("Adad 5th = ");
+ e = input.nextDouble();
+ res = (a+b+c+d+e)/5;
+ System.out.printf("Natije = %.3f , 1th = %.2f 2th = %.2f 3th = %.2f 4th = %.2f 5th = %.2f \n"
+ , res,a,b,c,d,e);
+ } 
+}
