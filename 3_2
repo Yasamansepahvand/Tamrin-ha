@@ -1,0 +1,15 @@
+ import java.util.*;
+public class Solution2_3 {
+ public static void main(String[] args) {
+ Scanner input = new Scanner (System.in);
+ float x,y ;
+ double result;
+ System.out.print("Ghaede ra vared konid :");
+ x = input.nextFloat();
+ System.out.print("Ertefae ra vared konid :");
+ y = input.nextFloat();
+ result = (x*y)/2;
+ System.out.printf("Masahat = %.3f \n",result );
+ }
+}
+ 
