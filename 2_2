@@ -1,0 +1,18 @@
+import java.util.*;
+public class solution2_2 {
+ public static void main(String[] args) {
+ Scanner input = new Scanner(System.in);
+ int hour,pay,salary;
+ float precent,tax;
+ System.out.print("Please enter your working hours :");
+ hour = input.nextInt();
+ System.out.print("Please enter your hourly wage :");
+ pay = input.nextInt();
+ salary = 30 * hour * pay;
+ precent = salary / 10;
+ tax = salary - precent;
+ System.out.printf("Your Salary = %d \n",salary);
+ System.out.printf("Your Salary by tax = %.2f \n",tax);
+ }
+ 
+}
