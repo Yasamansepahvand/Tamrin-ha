@@ -1,0 +1,16 @@
+ import java.util.*;
+public class Solution2_7 {
+ public static void main(String[] args) {
+ Scanner input = new Scanner (System.in);
+ double res;float x;
+ System.out.print("X ra vared konid : ");
+ x = input.nextFloat();
+ res= mohasebe(x);
+ System.out.printf("Natije = %.4f \n ",res); 
+ }
+ public static double mohasebe (double x){
+ double res;
+ res = 1/((x*x)+x+3);
+ return res;
+ }
+}
