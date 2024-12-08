@@ -1,0 +1,24 @@
+import java.util.*;
+public class Solution2_8 {
+
+public static void main(String[] args) {
+Scanner input = new Scanner (System.in);
+double arz,tol,haz,res;
+System.out.print("Arz Ra vared konid : ");
+arz = input.nextDouble();
+System.out.print("Tool Ra vared konid : ");
+tol = input.nextDouble();
+System.out.print("Gheymat har metr Morabae ra vared konid : ");
+haz = input.nextDouble();
+res=mohasebe(arz,tol,haz);
+System.out.printf("Gheymat in Zamin Barabar Ast ba : %.4f \n",res);
+}
+public static double mohasebe(double a, double b,double c){
+
+double mohasebe ;
+mohasebe = a*b*c;
+return mohasebe;
+}
+
+}
+ 
